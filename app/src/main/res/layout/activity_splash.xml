@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg"
+    tools:context=".Splash.SplashActivity">
+
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smart_logo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_smart_glo_logo"/>
+
+
+    <ImageView
+        android:id="@+id/bulb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/smart_logo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_led_lamp_2"/>
+
+    <ImageView
+        android:id="@+id/img_without_tag"
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:src="@drawable/new_logo_without_tag" />
+
+
+
+
+</RelativeLayout>
